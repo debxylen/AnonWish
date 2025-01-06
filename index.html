@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AnonWish - a wholesome, anonymous space for making and fulfilling wishes.">
+    <title>AnonWish | A Place to Make and Fulfill Wishes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f8ff;
+            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        body::-webkit-scrollbar { 
+            display: none;  /* Safari and Chrome */
+        }
+        html {
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        ::-webkit-scrollbar {
+            width: 0;  /* Remove scrollbar space */
+            background: transparent;  /* Optional: just make scrollbar invisible */
+        }
+
+
+
+        /* Navbar */
+        header {
+            background-color: #FFF9BF;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 5vh;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #3b3b3b;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            font-size: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #3b3b3b;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: #FF6347; /* Color change on hover */
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #FFF6E3;
+            padding: 80px 30px;
+            text-align: center;
+            color: #3b3b3b;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-left: 1vw;
+            margin-right: 1vw;
+            border-radius: 20px;
+            margin-bottom: 5vh;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Optional Details Section */
+        .details {
+            background-color: #ffffff;
+            padding: 50px 30px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-left: 1vw;
+            margin-right: 1vw;
+            border-radius: 20px;
+        }
+
+        .details h3 {
+            font-size: 2rem;
+            color: #3b3b3b;
+            margin-bottom: 20px;
+        }
+
+        .details p {
+            font-size: 1rem;
+            color: #555555;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        /* Button Styling */
+        .cta-button {
+            background-color: #FF6347;
+            color: white;
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #ff4500;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ffe8f6;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #888888;
+            margin-top: 5vh;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>AnonWish</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Make a Wish, Fulfill a Dream</h2>
+        <p>AnonWish is a wholesome, anonymous platform where you can make a wish, whether it's for something big like chasing a dream, or something small and silly like craving a pizza tonight or needing a friend to talk to. In this space, your desires—no matter how simple or quirky—are embraced, and others in the community can help bring them to life. It's about sharing moments of kindness, fulfilling little wishes, and making someone's day a bit brighter.</p>
+        <a href="#" class="cta-button">Start Your Wish</a>
+    </section>
+
+    <!-- Optional Details Section -->
+    <section class="details">
+        <h3>How It Works</h3>
+        <p>Simply make a wish, and the community will have the chance to help fulfill it. Whether it's a small gesture like sending a kind message or something bigger like fulfilling a dream, AnonWish helps connect people through kindness. Everyone deserves a little magic, no matter how big or small the wish.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 AnonWish. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
